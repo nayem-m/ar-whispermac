@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A3CD8ED92D54027E00E72A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CD8EBF2D54027D00E72A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CD8EC62D54027D00E72A61;
+			remoteInfo = "ar-whispermac";
+		};
+		A3CD8EE32D54027E00E72A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CD8EBF2D54027D00E72A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CD8EC62D54027D00E72A61;
+			remoteInfo = "ar-whispermac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3CD8EC72D54027D00E72A61 /* ar-whispermac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-whispermac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD8ED82D54027E00E72A61 /* ar-whispermacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-whispermacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD8EE22D54027E00E72A61 /* ar-whispermacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-whispermacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3CD8EC92D54027D00E72A61 /* ar-whispermac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ar-whispermac";
+			sourceTree = "<group>";
+		};
+		A3CD8EDB2D54027E00E72A61 /* ar-whispermacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ar-whispermacTests";
+			sourceTree = "<group>";
+		};
+		A3CD8EE52D54027E00E72A61 /* ar-whispermacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ar-whispermacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CD8EC42D54027D00E72A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD8ED52D54027E00E72A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD8EDF2D54027E00E72A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3CD8EBE2D54027D00E72A61 = {
+			isa = PBXGroup;
+			children = (
+				A3CD8EC92D54027D00E72A61 /* ar-whispermac */,
+				A3CD8EDB2D54027E00E72A61 /* ar-whispermacTests */,
+				A3CD8EE52D54027E00E72A61 /* ar-whispermacUITests */,
+				A3CD8EC82D54027D00E72A61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CD8EC82D54027D00E72A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD8EC72D54027D00E72A61 /* ar-whispermac.app */,
+				A3CD8ED82D54027E00E72A61 /* ar-whispermacTests.xctest */,
+				A3CD8EE22D54027E00E72A61 /* ar-whispermacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CD8EC62D54027D00E72A61 /* ar-whispermac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD8EEC2D54027E00E72A61 /* Build configuration list for PBXNativeTarget "ar-whispermac" */;
+			buildPhases = (
+				A3CD8EC32D54027D00E72A61 /* Sources */,
+				A3CD8EC42D54027D00E72A61 /* Frameworks */,
+				A3CD8EC52D54027D00E72A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A3CD8EC92D54027D00E72A61 /* ar-whispermac */,
+			);
+			name = "ar-whispermac";
+			packageProductDependencies = (
+			);
+			productName = "ar-whispermac";
+			productReference = A3CD8EC72D54027D00E72A61 /* ar-whispermac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3CD8ED72D54027E00E72A61 /* ar-whispermacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD8EEF2D54027E00E72A61 /* Build configuration list for PBXNativeTarget "ar-whispermacTests" */;
+			buildPhases = (
+				A3CD8ED42D54027E00E72A61 /* Sources */,
+				A3CD8ED52D54027E00E72A61 /* Frameworks */,
+				A3CD8ED62D54027E00E72A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CD8EDA2D54027E00E72A61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3CD8EDB2D54027E00E72A61 /* ar-whispermacTests */,
+			);
+			name = "ar-whispermacTests";
+			packageProductDependencies = (
+			);
+			productName = "ar-whispermacTests";
+			productReference = A3CD8ED82D54027E00E72A61 /* ar-whispermacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3CD8EE12D54027E00E72A61 /* ar-whispermacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD8EF22D54027E00E72A61 /* Build configuration list for PBXNativeTarget "ar-whispermacUITests" */;
+			buildPhases = (
+				A3CD8EDE2D54027E00E72A61 /* Sources */,
+				A3CD8EDF2D54027E00E72A61 /* Frameworks */,
+				A3CD8EE02D54027E00E72A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CD8EE42D54027E00E72A61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3CD8EE52D54027E00E72A61 /* ar-whispermacUITests */,
+			);
+			name = "ar-whispermacUITests";
+			packageProductDependencies = (
+			);
+			productName = "ar-whispermacUITests";
+			productReference = A3CD8EE22D54027E00E72A61 /* ar-whispermacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CD8EBF2D54027D00E72A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A3CD8EC62D54027D00E72A61 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A3CD8ED72D54027E00E72A61 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A3CD8EC62D54027D00E72A61;
+					};
+					A3CD8EE12D54027E00E72A61 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A3CD8EC62D54027D00E72A61;
+					};
+				};
+			};
+			buildConfigurationList = A3CD8EC22D54027D00E72A61 /* Build configuration list for PBXProject "ar-whispermac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CD8EBE2D54027D00E72A61;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3CD8EC82D54027D00E72A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CD8EC62D54027D00E72A61 /* ar-whispermac */,
+				A3CD8ED72D54027E00E72A61 /* ar-whispermacTests */,
+				A3CD8EE12D54027E00E72A61 /* ar-whispermacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CD8EC52D54027D00E72A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD8ED62D54027E00E72A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD8EE02D54027E00E72A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CD8EC32D54027D00E72A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD8ED42D54027E00E72A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD8EDE2D54027E00E72A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3CD8EDA2D54027E00E72A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CD8EC62D54027D00E72A61 /* ar-whispermac */;
+			targetProxy = A3CD8ED92D54027E00E72A61 /* PBXContainerItemProxy */;
+		};
+		A3CD8EE42D54027E00E72A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CD8EC62D54027D00E72A61 /* ar-whispermac */;
+			targetProxy = A3CD8EE32D54027E00E72A61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3CD8EEA2D54027E00E72A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3CD8EEB2D54027E00E72A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A3CD8EED2D54027E00E72A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ar-whispermac/ar_whispermac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ar-whispermac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moosanayem.ar-whispermac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3CD8EEE2D54027E00E72A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ar-whispermac/ar_whispermac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ar-whispermac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moosanayem.ar-whispermac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A3CD8EF02D54027E00E72A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moosanayem.ar-whispermacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar-whispermac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar-whispermac";
+			};
+			name = Debug;
+		};
+		A3CD8EF12D54027E00E72A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moosanayem.ar-whispermacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar-whispermac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar-whispermac";
+			};
+			name = Release;
+		};
+		A3CD8EF32D54027E00E72A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moosanayem.ar-whispermacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ar-whispermac";
+			};
+			name = Debug;
+		};
+		A3CD8EF42D54027E00E72A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moosanayem.ar-whispermacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ar-whispermac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CD8EC22D54027D00E72A61 /* Build configuration list for PBXProject "ar-whispermac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD8EEA2D54027E00E72A61 /* Debug */,
+				A3CD8EEB2D54027E00E72A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CD8EEC2D54027E00E72A61 /* Build configuration list for PBXNativeTarget "ar-whispermac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD8EED2D54027E00E72A61 /* Debug */,
+				A3CD8EEE2D54027E00E72A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CD8EEF2D54027E00E72A61 /* Build configuration list for PBXNativeTarget "ar-whispermacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD8EF02D54027E00E72A61 /* Debug */,
+				A3CD8EF12D54027E00E72A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CD8EF22D54027E00E72A61 /* Build configuration list for PBXNativeTarget "ar-whispermacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD8EF32D54027E00E72A61 /* Debug */,
+				A3CD8EF42D54027E00E72A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CD8EBF2D54027D00E72A61 /* Project object */;
+}
